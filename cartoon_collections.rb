@@ -8,7 +8,7 @@ def summon_captain_planet(types)
    type.capitalize + "!"
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(calls)
   calls.any? {|call| call.length > 4} || !calls.all? {|call| call.length <= 4}
 end
 
